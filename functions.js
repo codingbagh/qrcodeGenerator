@@ -6,7 +6,7 @@ export const barcodeMaker = (element) => {
     console.log("success!");
   });
 };
-
+ 
 export const download = async (element, canvas) => {
   var download = element;
   var image = canvas
