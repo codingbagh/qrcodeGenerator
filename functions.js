@@ -5,7 +5,7 @@ export const barcodeMaker = (element) => {
     if (error) console.error(error);
     console.log("success!");
   });
-};
+}; 
  
 export const download = async (element, canvas) => {
   var download = element;
